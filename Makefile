@@ -1,4 +1,4 @@
-VERSION="6.0.2"
+VERSION=$(shell node -pe "require('./package.json')['version']")
 
 version:
 	@echo "Current version ${VERSION}"
