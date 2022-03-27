@@ -3,7 +3,7 @@
   "displayName": "Bearded Theme",
   "description": "The theme with a long beard.",
   "publisher": "BeardedBear",
-  "version": "5.0.1",
+  "version": "6.1.0",
   "engines": {
     "vscode": "^1.63.0"
   },
@@ -164,9 +164,24 @@
         "path": "./themes/bearded-theme-vivid-light.json"
       },
       {
+        "label": "Bearded Theme Will",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-will.json"
+      },
+      {
         "label": "Bearded Theme Earth",
         "uiTheme": "vs-dark",
         "path": "./themes/bearded-theme-exotic-earth.json"
+      },
+      {
+        "label": "Bearded Theme Coffee",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-coffee.json"
+      },
+      {
+        "label": "Bearded Theme Coffee Cream",
+        "uiTheme": "vs",
+        "path": "./themes/bearded-theme-coffee-cream.json"
       },
       {
         "label": "Bearded Theme Void",
@@ -206,15 +221,15 @@
     ]
   },
   "dependencies": {
-    "@types/node": "^16.11.12",
-    "@typescript-eslint/eslint-plugin": "^5.6.0",
-    "@typescript-eslint/parser": "^5.6.0",
-    "eslint": "^8.4.1",
+    "@types/node": "^17.0.22",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^8.11.0",
     "nodemon": "^2.0.15",
-    "ovsx": "^0.2.1",
-    "prettier": "^2.5.1",
-    "ts-node": "^10.4.0",
-    "typescript": "^4.5.3",
-    "vsce": "^2.5.3"
+    "ovsx": "^0.3.0",
+    "prettier": "^2.6.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2",
+    "vsce": "^2.7.0"
   }
 }

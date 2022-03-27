@@ -61,6 +61,7 @@ export const currentText = [
   "meta.jsx.children",
   // LUA
   "source.lua",
+  "text.html.derivative",
 ];
 
 export const decorators = [
@@ -286,7 +287,6 @@ export const variables = [
   "meta.method.body",
   "entity.name.variable",
   "punctuation.definition.variable",
-  // "support.variable.property",
   "meta.class variable.object.property",
   "variable.other.constant entity.name.function",
   "entity.name.variable.tuple-element.cs punctuation.separator.colon.cs",

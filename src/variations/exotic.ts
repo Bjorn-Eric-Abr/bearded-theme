@@ -15,7 +15,7 @@ export const earth: Theme = {
     uibackground: "#1E1615",
     uibackgroundalt: "#181211",
     default: "#C6BEAB",
-    defaultMain: "#C6BEAB",
+    defaultMain: "#B0A896",
     defaultalt: "#6a5553",
   },
   colors: {
@@ -33,6 +33,67 @@ export const earth: Theme = {
   levels: exoticLevels,
 };
 
+export const coffee: Theme = {
+  ui: {
+    primary: "#F09177",
+    primaryalt: "#51403b",
+    uiborder: "#1D1918",
+    uibackground: "#292423",
+    uibackgroundalt: "#25201F",
+    default: "#CCBDB3",
+    defaultMain: "#AEA097",
+    defaultalt: "#6a5553",
+  },
+  colors: {
+    blue: "#6EDDD6",
+    green: "#9DCC57",
+    greenAlt: "#7E9E2D",
+    orange: "#ffa777",
+    pink: "#E480AD",
+    purple: "#9991F1",
+    red: "#f24343",
+    salmon: "#f77a6a",
+    turquoize: "#3ceaa8",
+    yellow: "#f7d979",
+  },
+  levels: {
+    danger: "#f24343",
+    success: "#94D652",
+    warning: "#ffa777",
+    info: "#6EDDD6",
+  },
+};
+export const coffeeCream: Theme = {
+  ui: {
+    primary: "#D3694C",
+    primaryalt: "#F1EBEA",
+    uiborder: "#BDAEA8",
+    uibackground: "#EAE4E1",
+    uibackgroundalt: "#E4DCD8",
+    default: "#2F2A29",
+    defaultMain: "#403A38",
+    defaultalt: "#AB9D98",
+  },
+  colors: {
+    blue: "#009DB5",
+    green: "#51A200",
+    greenAlt: "#7E9E2D",
+    orange: "#D97D04",
+    pink: "#CE4985",
+    purple: "#714CE7",
+    red: "#FF3A3A",
+    salmon: "#D8573E",
+    turquoize: "#00A47B",
+    yellow: "#D0AA00",
+  },
+  levels: {
+    danger: "#FF3A3A",
+    success: "#51A200",
+    warning: "#DA6C05",
+    info: "#009DB5",
+  },
+};
+
 export const voided: Theme = {
   ui: {
     primary: "#7A63ED",
@@ -41,7 +102,7 @@ export const voided: Theme = {
     uibackground: "#150F23",
     uibackgroundalt: "#120a1a",
     default: "#D7E2EF",
-    defaultMain: "#D7E2EF",
+    defaultMain: "#B8C1CE",
     defaultalt: "#585785",
   },
   colors: {
@@ -67,7 +128,7 @@ export const altica: Theme = {
     uibackground: "#0f1c21",
     uibackgroundalt: "#0e171c",
     default: "#c2ced1",
-    defaultMain: "#c2ced1",
+    defaultMain: "#9FADB1",
     defaultalt: "#45565c",
   },
   colors: {
@@ -83,4 +144,35 @@ export const altica: Theme = {
     yellow: "#d6ac63",
   },
   levels: exoticLevels,
+};
+
+export const will: Theme = {
+  ui: {
+    primary: "#b498f5",
+    primaryalt: "#231e36",
+    uiborder: "#0b0812",
+    uibackground: "#14111f",
+    uibackgroundalt: "#0d0a14",
+    default: "#ffffff",
+    defaultMain: "#c6bed3",
+    defaultalt: "#585775",
+  },
+  colors: {
+    blue: "#8ad0ff",
+    green: "#5fee9b",
+    greenAlt: "#A4EF58",
+    orange: "#ffae82",
+    pink: "#fda7f7",
+    purple: "#c39eff",
+    red: "#f7775a",
+    salmon: "#ff8ea0",
+    turquoize: "#44f8e9",
+    yellow: "#fce38a",
+  },
+  levels: {
+    danger: "#f7775a",
+    success: "#5fee9b",
+    warning: "#ffae82",
+    info: "#8ad0ff",
+  },
 };
